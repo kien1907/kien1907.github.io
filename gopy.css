@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    position: relative;
+}
+#khung{
+    width: 90%;
+    height: 900px;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    background-color: white;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 200px;
+}
+header>img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    margin: 0;
+}
+#menu{
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin: 0 0 ;
+    width: 50%;
+    height: 100%;
+}
+#menu li {
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu li a{
+    text-decoration:  none;
+    color: white;
+}
+#menu li a:hover{
+    color: #EEE;
+    text-decoration: underline;
+}
+#submenu{
+    display: none;
+    margin: 0 0 ;
+    background-color: red;
+    position: absolute;
+    padding: 0 ;
+    right: 350px;
+    top: 235px;
+}
+#submenu li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 4px;
+}
+#submenu li:hover{
+    border: 1px solid white;
+}
+#submenu li a{
+    text-align: center;
+}
+#menu li:hover #submenu {
+    display: block;
+}
+#icon{
+    width: 100%;
+    height: 100%;
+}
+#bieumau{
+    width: 69%;
+    height: 660px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 10px;
+}
+#chao{
+    width: 100%;
+    height: 100px;
+}
+#gt{
+    width: 100%;
+    height: 30px;
+    background-color: #DDD;
+    text-align: center;
+    padding: 10PX 0px;
+    margin-bottom: 15px;
+}
+#ctt{
+    width: 100%;
+    height: 400px;
+}
+#hoten{
+    width: 49%;
+    height: 50px;
+    float: left;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#mail{
+    width: 49%;
+    height: 50px;
+    float: right;
+    margin-right: 0.5%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#sdt{
+    width: 49%;
+    height: 50px;
+    float: left;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#dc{
+    width: 49%;
+    height: 50px;
+    float: right;
+    margin-right: 0.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#td{
+    width: 99%;
+    height: 50px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    clear: both;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#nd{
+    width: 99%;
+    height: 150px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    clear: both;
+    border-radius: 10px;
+}
+#nut{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0px;
+}
+#gui{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(46, 107, 222);
+    color: white;
+    font-size: 15px;
+}
+#gui:hover{
+    background-color: blue;
+}
+#ll{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(46, 107, 222);
+    color: white;
+    font-size: 15px;
+}
+#ll:hover{
+    background-color: blue;
+}
+#tin{
+    width: 29%;
+    height: 650px;
+    float: right;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+.o{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.anh{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.bv{
+    width: 60%;
+    height: 100%;
+    float: right;
+    padding: 10px 10px;
+}
+#tt{
+    width: 40%;
+    height: 220px;
+    margin-top: 30px;
+    padding: 0 0;
+    display: inline-block;
+}
+#logo{
+    width: 100%;
+    height: 45%;
+    text-align: center;
+}
+#dichi{
+    width: 100%;
+    height: 55%;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}

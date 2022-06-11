@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    position: relative;
+}
+#khung{
+    width: 90%;
+    height: 900px;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    background-color: white;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 200px;
+}
+header>img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    margin: 0;
+}
+#menu{
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin: 0 0 ;
+    width: 50%;
+    height: 100%;
+}
+#menu li {
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu li a{
+    text-decoration:  none;
+    color: white;
+}
+#menu li a:hover{
+    color: #EEE;
+    text-decoration: underline;
+}
+#submenu{
+    display: none;
+    margin: 0 0 ;
+    background-color: red;
+    position: absolute;
+    padding: 0 ;
+    right: 350px;
+    top: 235px;
+}
+#submenu li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 4px;
+}
+#submenu li:hover{
+    border: 1px solid white;
+}
+#submenu li a{
+    text-align: center;
+}
+#menu li:hover #submenu {
+    display: block;
+}
+#icon{
+    width: 100%;
+    height: 100%;
+}
+#thongtin{
+    width: 50%;
+    height: 290px;
+    background-color: aquamarine;
+    float: left;
+}
+#bd{
+    width: 50%;
+    height: 290px;
+    background-color: aqua;
+    float: right;
+}
+#lienhe{
+    width: 100%;
+    height: 90px;
+    background: url(icons8-letterbox-100.png) no-repeat center;
+    padding: 15Px 5px;
+}
+#vt{
+    padding: 10px 0px;
+    width: 100%;
+    height: 50px;
+    background: url(icons8-dot-50.png) no-repeat;
+    text-align: center;
+    color: rgb(151, 151, 151);
+}
+#mail{
+    padding: 10px 0px;
+    width: 100%;
+    height: 50px;
+    background: url(icons8-mail-50.png) no-repeat;
+    text-align: center;
+    color: rgb(151, 151, 151);
+}
+#dt{
+    padding: 10px 0px;
+    width: 100%;
+    height: 50px;
+    background: url(icons8-phone-50.png) no-repeat;
+    text-align: center;
+    color: rgb(151, 151, 151);
+}
+#tg{
+    padding: 10px 0px;
+    width: 100%;
+    height: 50px;
+    background: url(icons8-clock-48.png) no-repeat;
+    text-align: center;
+    color: rgb(151, 151, 151);
+}
+#tt{
+    width: 40%;
+    height: 220px;
+    margin-top: 30px;
+    padding: 0 0;
+    display: inline-block;
+}
+#logo{
+    width: 100%;
+    height: 45%;
+    text-align: center;
+}
+#dichi{
+    width: 100%;
+    height: 55%;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+.anh{
+    width: 100%;
+    height: 370px;
+}
